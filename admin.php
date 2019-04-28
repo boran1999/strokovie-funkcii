@@ -10,7 +10,7 @@
 		$fp = fopen("logs/form1.txt", "r");
 		$i=0;
 	?>
-	<form action="form.php" method="POST">
+	<form action="adm_form.php" method="POST">
 		<?php
 		if ($fp) {
 			while (!feof($fp)){
